@@ -84,3 +84,27 @@ print(myNewArray)
 just20 = mat[3,4]
 print(just20)
 
+#Grab the column up to 17 from mat
+
+colUpTo17 = mat[:3, 1:2]
+print(colUpTo17)
+
+#Grab the last row of mat
+
+lastRow = mat[4,:]
+print(lastRow)
+
+#Get the sum of all the values in mat
+
+theSum = np.sum(mat)
+print(theSum)
+
+#Get the std deviation of mat
+
+stdDev = np.std(mat)
+print(stdDev)
+
+#Get the sum of all columns
+
+colSum = mat.sum(axis=0)
+print(colSum)
